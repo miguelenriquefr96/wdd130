@@ -1,6 +1,8 @@
+/* resetar css do meu projeto */
 * {
    margin: 0;
    padding: 0;
+   box-sizing: border-box;
 }
 
 body {
@@ -20,14 +22,13 @@ h1 {
 }
 
 nav {
-  background-color: #333;
-  padding: 10px; 
+  background-color: #333;  
+  padding: 5px; 
 }
 
 header nav a {
     color: #ccc;
     padding: 10px;
-    display: block;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -41,28 +42,33 @@ img {
 }
 
 main img {
+    margin-left: 30px;
+    margin-bottom: 30px;
     width: 150px;
     height: auto;
     border: 2px solid #ccc;
-    padding: 5px;
     box-shadow: 2px 2px 8px #000;
     display: block;
     margin: 20px auto;
+    float: right;
 }
 
 aside {
     max-width: 300px;
-    margin: 20px;
-    border: 1px solid #d6af02;
     padding: 15px;
-    background-color: #494848;
     color: #fcfafa;
     text-align: center;
+    position: relative;
 }
 
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    left: 50px;
 }
 
 p {
@@ -75,4 +81,17 @@ footer {
     text-align: center;
     padding: 10px;
     color: antiquewhite;
+}
+
+/* seletores de clase */
+
+.caixa {
+    border: 1px solid #d6af02;
+    padding: 1em;
+    margin: 1em;
+    background-color: #494848;
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
