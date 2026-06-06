@@ -298,12 +298,12 @@ footer {
 }
 
 .formulario {
-    background-color: #292828;
+    background-color: #242323;
     padding: 25px;
     margin: 30px auto;
     max-width: 600px;
     border-radius: 8px;
-    box-shadow: 0 0 5px rgb(250, 248, 248);
+    box-shadow: 0 0 5px rgb(3, 3, 3);
 }
 
 .formulario h2 {
@@ -356,4 +356,23 @@ footer {
 
 .formulario button[type="submit"]:hover {
     background-color: #f5fcfc;
+}
+
+.contato-form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* espaço entre os blocos */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.contato, .formulario {
+    flex: 1;
+}
+
+
+.formulario {
+    max-width: 500px;
 }
