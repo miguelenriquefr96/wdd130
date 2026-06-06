@@ -272,6 +272,7 @@ footer {
     background-color: #242323;
     margin-bottom: 20px;
     border-radius: 8px;
+    color: #ffffff ;
 }
 
 .equipe h2 {
@@ -295,7 +296,7 @@ footer {
 .equipe figcaption {
     margin-top: 8px;
     font-weight: bold;
-    color: #fffdfd;
+    color: #ffffff;
 }
 
 .formulario {
