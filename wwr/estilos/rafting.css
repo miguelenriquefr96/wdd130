@@ -76,6 +76,7 @@ h1,h2 {
     font-family: var(--fonte-body);
     color: var(--cor-destaque);
     text-align: center;
+    background-color: #5a3c0a;
 }
 p, section, article {
     margin: 16px;
@@ -304,6 +305,7 @@ footer {
     max-width: 500px;
     border-radius: 8px;
     box-shadow: 0 0 5px rgb(36, 35, 35, 0.8);
+    color: #fffcfc;
 }
 
 .formulario h2 {
