@@ -8,7 +8,7 @@
 :root {
     background-color: #ac853d; 
     --cor-primaria: #000000;
-    --cor-secundaria: #282a2a;
+    --cor-secundaria: #242323;
     --cor-destaque: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     --fonte-body: 'Open Sans', Arial, sans-serif;
@@ -21,7 +21,7 @@ header {
     background-color: var(--cor-secundaria);
     color: var(--cor-destaque);
     padding: 10px 20px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 6px rgba(36, 35, 35, 0.8);
 
 }
 
@@ -288,7 +288,7 @@ footer {
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 0 5px rgba(248, 247, 247, 0.2);
+    box-shadow: 0 0 5px rgba(36, 35, 35, 0.8);
 }
 
 .equipe figcaption {
@@ -301,9 +301,9 @@ footer {
     background-color: #242323;
     padding: 25px;
     margin: 30px auto;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 8px;
-    box-shadow: 0 0 5px rgb(3, 3, 3);
+    box-shadow: 0 0 5px rgb(36, 35, 35, 0.8);
 }
 
 .formulario h2 {
@@ -370,9 +370,4 @@ footer {
 
 .contato, .formulario {
     flex: 1;
-}
-
-
-.formulario {
-    max-width: 500px;
 }
