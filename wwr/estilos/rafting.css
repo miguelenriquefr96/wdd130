@@ -564,3 +564,111 @@ main.home {
     padding: 0;       
     width: 100vw;     
 }
+
+.passeios .cta-passeios {
+    text-align: center;
+    margin: 40px auto;
+    background-color: #242323;
+    color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 900px;
+    font-size: 1.4rem;
+}
+
+.passeios .cta-passeios h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+.passeios .cta-passeios p {
+    margin-bottom: 20px;
+}
+
+.passeios .cta-passeios .botao-cta {
+    display: inline-block;
+    background-color: #ac853d;
+    color: #fff;
+    padding: 14px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.passeios .cta-passeios .botao-cta:hover {
+    background-color: #ac853d;
+    transform: scale(1.05);
+}
+
+.passeios .grid-passeios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.passeios .grid-passeios .item {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.passeios .grid-passeios img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.passeios .grid-passeios h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #ac853d;
+}
+
+.passeios .grid-passeios p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.passeios .tabela-passeios {
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.passeios .tabela-passeios h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ac853d;
+}
+
+.passeios .tabela-passeios table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #242323;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.passeios .tabela-passeios th,
+.passeios .tabela-passeios td {
+    padding: 12px;
+    border-bottom: 1px solid #242323;
+}
+
+.passeios .tabela-passeios th {
+    background-color: #000;
+    color: #ac853d;
+    font-weight: bold;
+}
+
+.passeios .tabela-passeios tr:hover {
+    background-color: #242323;
+}
