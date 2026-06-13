@@ -72,11 +72,11 @@ main {
     padding: 0 20px;
 }
 
-h1,h2 {
+h1 {
     font-family: var(--fonte-body);
     color: var(--cor-destaque);
     text-align: center;
-    background-color: #5a3c0a;
+    background-color: #ac853d;
 }
 p, section, article {
     margin: 16px;
