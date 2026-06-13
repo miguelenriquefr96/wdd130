@@ -427,3 +427,140 @@ footer {
     color: #000;            
 }
 
+.home .hero-home {
+    position: relative;
+    width: 100%;
+    margin: 0;        
+    padding: 0;     
+}
+
+.home .hero-home img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+     margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.home .hero-home h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(36, 35, 35, 0.7);
+    color: #fff;
+    font-size: 3rem;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.home .newsletter-home {
+    background-color: #242323;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.home .newsletter-home h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.home .newsletter-home form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.home .newsletter-home button {
+    display: block;
+    width: 100%;            
+    color: #242323;             
+    border: none;
+    border-radius: 25px;     
+    padding: 14px 20px;
+    font-size: 1.2rem;          
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home .newsletter-home button:hover {
+    background: linear-gradient(135deg, #5a3c0a, #ac853d); 
+    transform: scale(1.05);     
+}
+
+.home .cta-home {
+    text-align: center;
+    margin: 40px 0;
+    background-color:#242323; 
+    color: #fff;         
+    padding: 30px;           
+    border-radius: 15px;      
+    max-width: 800px;         
+    margin-left: auto;        
+    margin-right: auto;
+    font-size: 1.5rem; 
+}
+
+.home .botao-cta-home {
+    display: block;
+    background-color: #ac853d;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home .botao-cta-home:hover {
+    background-color: #ac853d;
+}
+
+.home .grid-ofertas-home {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.home .grid-ofertas-home .item {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #000;
+}
+
+.home .grid-ofertas-home img {
+    width: 50%;             
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.home .grid-ofertas-home .item h4,
+.home .grid-ofertas-home .item h5 {
+    font-size: 1.8rem;   
+    margin-bottom: 10px;
+    color: #fff;         
+}
+
+
+.home .grid-ofertas-home .item p {
+    font-size: 1.2rem;   
+    line-height: 1.6;   
+    color: #242323;        
+}
+
+main.home {
+    max-width: 100%;   
+    margin: 0;         
+    padding: 0;       
+    width: 100vw;     
+}
