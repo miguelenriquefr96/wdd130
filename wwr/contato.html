@@ -24,76 +24,69 @@
 
     </header>
     <main>
-        <section class="aventura">
-            <h1>A aventura está te esperando!</h1>
-            <div class="galeria">
-                <figure>
-                    <img src="././imagens/passeio1.jpg" alt="Passeio Rio Bravo">
-                    <figcaption>Passeio Rio Bravo</figcaption>
-                </figure>
-                <figure>
-                    <img src="././imagens/passeio2.jpg" alt="Passeio Rio Negro">
-                    <figcaption>Passeio Rio Negro</figcaption>
-                </figure>
-                <figure>
-                    <img src="././imagens/passeio3.jpg" alt="Passeio Rio Turbio">
-                    <figcaption>Passeio Rio Turbio</figcaption>
-                </figure>
-                <figure>
-                    <img src="././imagens/passeio4.jpg" alt="Passeio Rio Bonito">
-                    <figcaption>Passeio Rio Bonito</figcaption>
-                </figure>
-                <figure>
-                    <img src="././imagens/passeio5.jpg" alt="Passeio Rio Branco">
-                    <figcaption>Passeio Rio Branco</figcaption>
-                </figure>
-            </div>
-        </section>
         <div class="contato-form-container">
             <section class="contato">
-                <h2>Informações da Empresa</h2>
-                <p>Endereço: Rua das Aventuras, 123 - Pinhais, PR - Brasil</p>
-                <p>Telefone: (41) 99999-9999</p>
-                <p>Email: contato@raftingadventures.com.br</p>
-
-                <h3>Localização</h3>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.415963651368!2d-49.12029722166631!3d-25.413407183449046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcedd920ab3965%3A0xf55f18189ced792a!2sCh%C3%A1cara%20Villar!5e1!3m2!1ses-419!2sbr!4v1780767583821!5m2!1ses-419!2sbr"
-                    width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                <h2>Adventure Rafting</h2>
+                <p>Rua das Aventuras, 123 - Pinhais</p>
+                <p> Paraná - Brasil </p>
+                <p>+55 41 99999-9999</p>
+                <p>contato@raftingadventures.com.br</p>
             </section>
-            <section class="formulario">
-                <h2>Fale Conosco</h2>
-                <form action="#" method="post">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required><br><br>
+            <div class="conteudo-contato">
+                <section class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.415963651368!2d-49.12029722166631!3d-25.413407183449046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcedd920ab3965%3A0xf55f18189ced792a!2sCh%C3%A1cara%20Villar!5e1!3m2!1ses-419!2sbr!4v1780767583821!5m2!1ses-419!2sbr"
+                        width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                </section>
 
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required><br><br>
+                <section class="formulario">
+                    <form action="#" method="post">
+                        <div class="campo">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" placeholder="digite aqui" required>
+                        </div>
 
-                    <fieldset>
-                        <legend>Finalidade da mensagem:</legend>
-                        <input type="radio" id="consulta" name="finalidade" value="consulta">
-                        <label for="consulta">Consulta Geral</label><br>
+                        <div class="campo">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="digite aqui" required>
+                        </div>
 
-                        <input type="radio" id="reserva" name="finalidade" value="reserva">
-                        <label for="reserva">Pergunta sobre Reserva</label><br>
+                        <div class="campo">
+                            <label class="titulo-proposito">Proposito da<br>mensagem:</label>
+                            <div class="opcoes">
+                                <label class="opcao">
+                                    <input type="radio" id="consulta" name="proposito" value="consulta">
+                                    Dúvida Geral
+                                </label>
+                                <label class="opcao">
+                                    <input type="radio" id="reserva" name="proposito" value="reserva">
+                                    Pergunta sobre Reserva
+                                </label>
+                                <label class="opcao">
+                                    <input type="radio" id="sugestao" name="proposito" value="sugestao">
+                                    Sugestão de Site
+                                </label>
+                            </div>
+                        </div>
 
-                        <input type="radio" id="sugestao" name="finalidade" value="sugestao">
-                        <label for="sugestao">Sugestão de Site</label>
-                    </fieldset><br>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" cols="40"
+                                placeholder="digite aqui"></textarea>
+                        </div>
 
-                    <label for="mensagem">Mensagem:</label><br>
-                    <textarea id="mensagem" name="mensagem" rows="5" cols="40"></textarea><br><br>
+                        <div class="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Por favor, quero receber a newsletter mensal</label>
+                        </div>
 
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    <label for="newsletter">Quero receber a newsletter mensal</label><br><br>
-
-                    <button type="submit">Enviar Mensagem</button>
-                </form>
-            </section>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </section>
+            </div>
         </div>
         <section class="equipe">
-            <h2>Nossa Equipe</h2>
+            <h2>Estamos Aqui para Servi-lo</h2>
             <figure>
                 <img src="././imagens/intrutor2.jpg" alt="João - Guia de Rafting" width="200">
                 <figcaption>João - Guia de Rafting</figcaption>
